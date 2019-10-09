@@ -18,5 +18,9 @@ class Dog
   
   def self.print_all
     @@all.each {|dogs| puts dogs.name }
+    
+  end
+  
+  def self
   
 end
