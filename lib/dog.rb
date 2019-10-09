@@ -21,6 +21,9 @@ class Dog
     
   end
   
-  def self
+  def save 
+    @@all<<self
+  end
+  
   
 end
